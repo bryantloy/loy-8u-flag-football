@@ -22,3 +22,21 @@ body{background:#e8eef6;color:var(--broncos-ink)}
 
 /* Drill library, setup maps, timers, and personal progress */
 .mini-drill{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:12px;align-items:center}.mini-drill .drill-diagram{width:100%;margin:0}.drill-diagram{display:block;width:100%;max-height:270px;border-radius:12px;margin:12px auto}.drill-detail{scroll-margin-top:16px;border:2px solid #f47b20}.drill-detail p{line-height:1.5}.timer-panel,.result-panel{background:#f0f5fd;border-radius:15px;padding:14px;margin-top:14px}.timer-clock{font-size:44px;text-align:center;color:#092453;font-weight:900;font-variant-numeric:tabular-nums;margin:7px auto 14px}.progress-summary{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:13px;margin:12px 0}.progress-plot{display:block;width:100%;height:125px}.timer-panel .row{justify-content:center;flex-wrap:wrap}.drill-detail .callout{margin:12px 0}@media(max-width:380px){.mini-drill{grid-template-columns:1fr}.mini-drill .drill-diagram{max-height:150px}}
+
+/* Mobile month calendar */
+.cal-panel{padding:14px}.cal-heading{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:15px}.cal-heading h3{margin:0;font-size:18px;text-align:center}.cal-heading .btn{font-size:23px;min-width:40px;line-height:1}.cal-weekdays,.cal-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px}.cal-weekdays{margin-bottom:7px}.cal-weekdays span{text-align:center;font-size:11px;color:#65758c;font-weight:700}.cal-day,.cal-empty{min-height:54px;min-width:0;border:1px solid #e1e7f0;border-radius:10px;background:#f7f9fd;color:#132b4e;display:flex;align-items:center;flex-direction:column;justify-content:center;gap:5px;font-size:14px;font-weight:650}.cal-day{cursor:pointer}.cal-today{border-color:#f07820}.cal-selected{background:#102d5c;color:white;border-color:#102d5c}.cal-dots{display:flex;gap:3px;min-height:7px}.cal-dot{display:inline-block;width:6px;height:6px;border-radius:100%;background:#8997ac}.cal-practice{background:#f17e24}.cal-game{background:#1973d3}.cal-other{background:#8390a3}.cal-legend{display:flex;flex-wrap:wrap;gap:13px;margin-top:14px;color:#64748b;font-size:11px}.cal-legend span{display:flex;align-items:center;gap:5px}.cal-legend .cal-dot{width:8px;height:8px}@media(max-width:380px){.cal-day,.cal-empty{min-height:47px}.cal-grid{gap:3px}.cal-panel{padding:10px}}
+
+/* Calendar import actions */
+.calendar-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px;padding-top:10px;border-top:1px solid #e6eaf0}
+.calendar-export-bar{display:flex;flex-direction:column;align-items:flex-start;gap:8px;margin:12px 0 16px}
+.calendar-export-bar .btn{max-width:100%;white-space:normal}
+.calendar-export-bar .muted{line-height:1.45}
+
+/* Parent drill completion and personal progress */
+.home-log{border:2px solid #ff9d40;background:linear-gradient(180deg,#fff9f0,#fff 42%)}
+.home-log h3{margin-bottom:8px}.home-log form{margin:14px 0}.home-log .btn[type=submit]{font-weight:800;padding:13px 20px}
+.activity-entry{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid #e4eaf2;font-size:13px}
+.activity-entry:last-child{border-bottom:0}.activity-entry .muted{font-size:12px;margin-top:3px;line-height:1.5}
+.activity-entry .chip{white-space:nowrap;flex-shrink:0}.progress-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:15px 0}
+.progress-stats>div{background:#eef3fb;border-radius:12px;padding:12px 7px;text-align:center;display:flex;flex-direction:column;gap:5px}
+.progress-stats strong{font-size:23px;color:#082852;font-variant-numeric:tabular-nums}.progress-stats span{font-size:11px;color:#62758c}
