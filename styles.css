@@ -19,3 +19,6 @@ body{background:#e8eef6;color:var(--broncos-ink)}
 .drilltag{background:#fff0dd;color:#a84800}.chatbubble{background:#eaf0f9}.chatbubble.mine{background:#fff0dc}.pill{background:#eaf0f9;color:#123b71}
 ::selection{background:#ffb368;color:#071c3c}
 @media(max-width:390px){.logo{width:62px;height:62px}.top h1{font-size:24px}}
+
+/* Drill library, setup maps, timers, and personal progress */
+.mini-drill{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:12px;align-items:center}.mini-drill .drill-diagram{width:100%;margin:0}.drill-diagram{display:block;width:100%;max-height:270px;border-radius:12px;margin:12px auto}.drill-detail{scroll-margin-top:16px;border:2px solid #f47b20}.drill-detail p{line-height:1.5}.timer-panel,.result-panel{background:#f0f5fd;border-radius:15px;padding:14px;margin-top:14px}.timer-clock{font-size:44px;text-align:center;color:#092453;font-weight:900;font-variant-numeric:tabular-nums;margin:7px auto 14px}.progress-summary{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:13px;margin:12px 0}.progress-plot{display:block;width:100%;height:125px}.timer-panel .row{justify-content:center;flex-wrap:wrap}.drill-detail .callout{margin:12px 0}@media(max-width:380px){.mini-drill{grid-template-columns:1fr}.mini-drill .drill-diagram{max-height:150px}}

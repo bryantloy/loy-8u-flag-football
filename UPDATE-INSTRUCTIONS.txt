@@ -1,13 +1,22 @@
-OB Broncos weekly practices update
+OB Broncos 8U • Drills & Personal Progress update
 
-If you already uploaded the full app, you only need to replace three ROOT files:
-- app.js
-- index.html (includes the required Supabase library fix)
-- sw.js (refreshes cached PWA code)
+UPLOAD TO GITHUB (ROOT):
+  app.js
+  styles.css
+  sw.js
+  (Do not change existing api/ or lib/ folders.)
 
-Vercel will redeploy after committing to main.
-The existing Saturday practice stays intact. Under Schedule, tap Repeat weekly (8 total) on that practice to add seven more Saturdays at the same local time. Existing matching dates are skipped so the action can be rerun.
+SUPABASE (ONCE):
+  Open SQL Editor → New Query.
+  Copy and Run sql/04-drill-progress.sql (included in ZIP).
+  This adds a private results history for approved team members.
 
-For a new event, choose the total number of weekly occurrences in the Add an event form. No new SQL is needed.
+APP:
+  Open Drills → Coach tools → Load 12 starter drills.
+  Choose Team practice / At home.
+  Open a drill for setup diagram, timer and instructions.
+  After adding players, record attempts and watch personal progress charts.
+  Only guardians linked to that child or coaches can log scores.
+  Recording a result DOES NOT automatically award points; parent home-drill participation submissions still use coach approval.
 
-This is still a private testing build.
+Mobile upload: extract ZIP, upload only the three root files; copy/paste SQL from sql/04-drill-progress.sql in Supabase.
