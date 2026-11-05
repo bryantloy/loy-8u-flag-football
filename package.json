@@ -1,0 +1,7 @@
+{
+  "name": "loy-8u-team-hq",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Team HQ static PWA and Vercel API functions"
+}

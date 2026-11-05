@@ -1,1 +1,30 @@
-{"name":"Team HQ – 8U Flag Football","short_name":"Team HQ","description":"Team schedules, chat, announcements and 8U flag football drills","start_url":"./","scope":"./","display":"standalone","background_color":"#f8faff","theme_color":"#1746a2","icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
+{
+  "name": "OB Broncos 8U | Team HQ",
+  "short_name": "OB Broncos",
+  "description": "OB Broncos 8U Flag Football team hub: schedule, team chat, at-home drills and rewards",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#071c3c",
+  "theme_color": "#071c3c",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
