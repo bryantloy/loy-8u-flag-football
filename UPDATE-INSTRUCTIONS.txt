@@ -1,0 +1,13 @@
+OB Broncos weekly practices update
+
+If you already uploaded the full app, you only need to replace three ROOT files:
+- app.js
+- index.html (includes the required Supabase library fix)
+- sw.js (refreshes cached PWA code)
+
+Vercel will redeploy after committing to main.
+The existing Saturday practice stays intact. Under Schedule, tap Repeat weekly (8 total) on that practice to add seven more Saturdays at the same local time. Existing matching dates are skipped so the action can be rerun.
+
+For a new event, choose the total number of weekly occurrences in the Add an event form. No new SQL is needed.
+
+This is still a private testing build.
