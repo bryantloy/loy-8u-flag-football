@@ -1,0 +1,88 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OB Broncos 8U//Season Schedule 2026-27//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:OB Broncos 8U
+BEGIN:VEVENT
+UID:broncos-2026-27-fixture-0@ob-broncos-8u
+DTSTAMP:20261116T210105Z
+DTSTART:20261121T150000Z
+DTEND:20261121T160000Z
+SUMMARY:OB Broncos 8U — Practice — field TBD
+LOCATION:Orange Beach Sportsplex - field TBD
+DESCRIPTION:Field to be confirmed with coach. Provisional 60-minute calendar duration\; verify end time with coach.
+END:VEVENT
+BEGIN:VEVENT
+UID:broncos-2026-27-fixture-1@ob-broncos-8u
+DTSTAMP:20261116T210105Z
+DTSTART:20261128T173000Z
+DTEND:20261128T183000Z
+SUMMARY:OB Broncos 8U — Practice — field TBD
+LOCATION:Orange Beach Sportsplex - field TBD
+DESCRIPTION:Field to be confirmed with coach. Provisional 60-minute calendar duration\; verify end time with coach.
+END:VEVENT
+BEGIN:VEVENT
+UID:broncos-2026-27-fixture-2@ob-broncos-8u
+DTSTAMP:20261116T210105Z
+DTSTART:20261205T150000Z
+DTEND:20261205T160000Z
+SUMMARY:OB Broncos 8U — vs. Coach Cooper
+LOCATION:Orange Beach Sportsplex - Field 9
+DESCRIPTION:Light / Away jersey. Provisional 60-minute calendar duration\; verify end time with coach.
+END:VEVENT
+BEGIN:VEVENT
+UID:broncos-2026-27-fixture-3@ob-broncos-8u
+DTSTAMP:20261116T210105Z
+DTSTART:20261205T160000Z
+DTEND:20261205T170000Z
+SUMMARY:OB Broncos 8U — vs. Coach Self
+LOCATION:Orange Beach Sportsplex - Field 9
+DESCRIPTION:Dark / Home jersey. Provisional 60-minute calendar duration\; verify end time with coach.
+END:VEVENT
+BEGIN:VEVENT
+UID:broncos-2026-27-fixture-4@ob-broncos-8u
+DTSTAMP:20261116T210105Z
+DTSTART:20261212T180000Z
+DTEND:20261212T190000Z
+SUMMARY:OB Broncos 8U — vs. Coach Engebos
+LOCATION:Orange Beach Sportsplex - Field 12
+DESCRIPTION:Light / Away jersey. Provisional 60-minute calendar duration\; verify end time with coach.
+END:VEVENT
+BEGIN:VEVENT
+UID:broncos-2026-27-fixture-5@ob-broncos-8u
+DTSTAMP:20261116T210105Z
+DTSTART:20270109T180000Z
+DTEND:20270109T190000Z
+SUMMARY:OB Broncos 8U — vs. Coach Mills
+LOCATION:Orange Beach Sportsplex - Field 12
+DESCRIPTION:Light / Away jersey. Provisional 60-minute calendar duration\; verify end time with coach.
+END:VEVENT
+BEGIN:VEVENT
+UID:broncos-2026-27-fixture-6@ob-broncos-8u
+DTSTAMP:20261116T210105Z
+DTSTART:20270116T160000Z
+DTEND:20270116T170000Z
+SUMMARY:OB Broncos 8U — vs. Coach Lizana
+LOCATION:Orange Beach Sportsplex - Field 9
+DESCRIPTION:Dark / Home jersey. Provisional 60-minute calendar duration\; verify end time with coach.
+END:VEVENT
+BEGIN:VEVENT
+UID:broncos-2026-27-fixture-7@ob-broncos-8u
+DTSTAMP:20261116T210105Z
+DTSTART:20270116T180000Z
+DTEND:20270116T190000Z
+SUMMARY:OB Broncos 8U — vs. Coach Baker
+LOCATION:Orange Beach Sportsplex - Field 12
+DESCRIPTION:Dark / Home jersey. Provisional 60-minute calendar duration\; verify end time with coach.
+END:VEVENT
+BEGIN:VEVENT
+UID:broncos-2026-27-fixture-8@ob-broncos-8u
+DTSTAMP:20261116T210105Z
+DTSTART:20270123T150000Z
+DTEND:20270123T160000Z
+SUMMARY:OB Broncos 8U — vs. Coach Betzhold
+LOCATION:Orange Beach Sportsplex - Field 9
+DESCRIPTION:Light / Away jersey. Provisional 60-minute calendar duration\; verify end time with coach.
+END:VEVENT
+END:VCALENDAR
