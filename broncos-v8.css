@@ -1,0 +1,15 @@
+/* V8 game schedule — preserved Broncos navy, orange, white */
+.v8-season{border:1px solid #dce4ef;border-radius:18px;background:#fff;overflow:hidden;box-shadow:0 8px 24px #071c3c12;margin:0 0 21px}
+.v8-season-head{padding:20px;background:linear-gradient(115deg,#071c3c,#14376a);border-bottom:4px solid #ff7900;color:#fff}
+.v8-season-head h2{font-size:25px;letter-spacing:-.035em;margin:5px 0}.v8-season-head p{margin:0;color:#cad8ee;font-size:13px}
+.v8-mini{font-size:10px;font-weight:850;letter-spacing:.11em;text-transform:uppercase;color:#f58222}
+.v8-next{display:flex;align-items:flex-start;flex-direction:column;gap:7px;padding:17px;background:#f2f6fc;border-bottom:1px solid #dfe7f3}
+.v8-next strong{font-size:19px;color:#071c3c}.v8-next>span:not(.v8-mini):not(.v8-jersey){color:#39526f;font-size:14px}
+.v8-game-list{padding:5px 15px}.v8-game{padding:13px 2px;display:flex;justify-content:space-between;gap:12px;align-items:center;border-bottom:1px solid #e7edf4}
+.v8-game:last-child{border-bottom:0}.v8-game>div{display:flex;flex-direction:column;gap:4px}.v8-game strong{font-size:14px;color:#0b274e}.v8-game>div>span:last-child{color:#677a94;font-size:12px}
+.v8-jersey{display:inline-flex;padding:6px 10px;border-radius:30px;font-size:12px;font-weight:800;white-space:nowrap}
+.v8-dark{background:#0b2345;color:#fff}.v8-light{background:#fff;border:1px solid #bac8d9;color:#172c49}
+.v8-tourney{padding:14px 16px;margin:7px 13px 11px;border:1px solid #ffcf9d;background:#fff7ec;border-radius:12px;color:#713a11}
+.v8-tourney strong{color:#773808}.v8-tourney p{margin:6px 0 0;font-size:12px;line-height:1.5}.v8-footnote{color:#6c7d91;font-size:11px;line-height:1.45;padding:0 16px 15px}
+.v8-coach-log{margin-top:16px;border:2px solid #ff7900;scroll-margin-top:16px}.v8-log-head h3{font-size:21px;margin:4px 0}.v8-log-head p{color:#63758c;line-height:1.5;font-size:13px}.v8-save{width:100%;font-size:16px;padding:15px}
+.v8-log-jump{width:100%;margin-bottom:14px;font-size:13px;white-space:normal}
